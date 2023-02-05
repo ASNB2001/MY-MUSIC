@@ -1,0 +1,18 @@
+@media screen and (max-width:1000px){ 
+
+    nav{
+        flex-direction: column;
+        background-color: black;
+    }
+    nav ul li a {
+        color: blanchedalmond;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    .search{
+        justify-content: center;
+    }
+    
+}

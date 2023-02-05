@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+ :root   {--main-bg-color : rgb(42, 153, 153)
+
+    ;}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px ;
+    align-items: center;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.container{
+    /* //it gives inshort 100vh(just minus the footer and header height) */
+    min-height: calc(100vh - 58px - 12vh );
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 24px;
+    border-radius: 3px;
+    margin: 0 56px;
+}
+
+.silder{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+
+}
+.cards{
+    display: flex;
+    
+}
+.carditem{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 15px ;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto ;
+    font-family: 'Roboto', sans-serif;
+
+}
+.card h2{
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    
+    height: 25vh;
+    
+
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+    
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+
